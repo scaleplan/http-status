@@ -1,5 +1,5 @@
 {
-    "name": "lukasoppermann/http-status",
+    "name": "scaleplan/http-status",
     "description": "A minimal package for working with HTTP statuses.",
     "keywords": [
         "Httpstatus",
