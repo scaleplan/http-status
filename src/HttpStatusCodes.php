@@ -5,7 +5,7 @@ namespace Scaleplan\HttpStatus;
 /**
  * Class HttpStatusCodes
  *
- * @package Lukasoppermann\Httpstatus
+ * @package Scaleplan\HttpStatus
  */
 final class HttpStatusCodes
 {
