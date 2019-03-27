@@ -1,31 +1,12 @@
 {
     "name": "scaleplan/http-status",
     "description": "A minimal package for working with HTTP statuses.",
-    "keywords": [
-        "HttpStatus",
-        "status codes"
-    ],
-    "homepage": "https://github.com/lukasoppermann/http-status",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Lukas Oppermann",
-            "email": "lukas@vea.re",
-            "homepage": "http://vea.re",
-            "role": "Developer"
-        }
-    ],
     "require": {
-        "php" : ">=5.3.0"
+        "php" : ">=7.2"
     },
     "autoload": {
         "psr-4": {
             "Scaleplan\\HttpStatus\\": "src"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
         }
     }
 }
