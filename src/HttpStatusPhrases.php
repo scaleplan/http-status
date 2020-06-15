@@ -100,7 +100,7 @@ final class HttpStatusPhrases
     public static function getReasonPhrase($statusCode) : string
     {
         if (!isset(static::HTTP_STATUSES[$statusCode])) {
-            throw new \OutOfBoundsException(sprintf('Unknown http status code: `%s`', $statusCode));
+            throw new \OutOfBoundsException(sprintf('Неизвестный HTTP-код: `%s`', $statusCode));
         }
 
         return static::HTTP_STATUSES[$statusCode];
